@@ -1,0 +1,1 @@
+zshaddhistory() { return 0 }
