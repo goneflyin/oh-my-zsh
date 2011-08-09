@@ -2,6 +2,9 @@ locals.zsh
 log/.zsh_history
 projects.zsh
 cache
+*.swp
 
 # emacs backup files
 *~
+
+
