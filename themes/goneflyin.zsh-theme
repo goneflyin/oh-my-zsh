@@ -32,6 +32,15 @@ function prompt_char() {
   echo "%{$fg[cyan]%}◯%{$reset_color%}"
 }
 
+function prompt_legend() {
+  print -P "${ZSH_THEME_GIT_PROMPT_ADDED} - git: files added"
+  print -P "${ZSH_THEME_GIT_PROMPT_MODIFIED} - git: files modified"
+  print -P "${ZSH_THEME_GIT_PROMPT_DELETED} - git: files deleted"
+  print -P "${ZSH_THEME_GIT_PROMPT_RENAMED} - git: files renamed"
+  print -P "${ZSH_THEME_GIT_PROMPT_UNMERGED} - git: files unmerged"
+  print -P "${ZSH_THEME_GIT_PROMPT_UNTRACKED} - git: files untracked"
+}
+
 # Colors vary depending on time lapsed.
 ZSH_THEME_GIT_TIME_SINCE_COMMIT_SHORT="%{$fg[green]%}"
 ZSH_THEME_GIT_TIME_SHORT_COMMIT_MEDIUM="%{$fg[yellow]%}"
