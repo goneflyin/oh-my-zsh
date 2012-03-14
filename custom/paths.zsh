@@ -55,7 +55,7 @@ debug_log path NOW is: $path
 # CDPATH init
 #
 setopt autocd
-cdpath=( ~ ~/Projects ~/dev/work ~/dev/projects ~/dev/external ~/dev/kits ~/dev ~/dev/work/rt )
+cdpath=( ~ ~/Projects ~/dev/work ~/dev/projects ~/dev/external ~/dev/kits ~/dev ~/dev/work/rt ~/Dropbox/Documents/Redpoint )
 
 # TODO: Add "shortcuts generator"? Or... just do it manually for my custom local shortcuts?
 
